@@ -1,0 +1,22 @@
+# Pipfile
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+python-dotenv = "*"
+requests = "*"
+SQLAlchemy = "*"
+psycopg2 = "*"
+
+[requires]
+python_version = "3.9"
+
+# requirements.txt
+flask==2.2.0
+python-dotenv==0.19.3
+requests==2.27.1
+SQLAlchemy==1.4.29
+psycopg2==2.9.3
